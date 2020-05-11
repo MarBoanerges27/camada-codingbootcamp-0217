@@ -90,3 +90,90 @@ header nav a:hover {
 	color:white;
 }
  
+/Media queries/
+@media all and (min-width:1000px)
+{
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:rgb(255, 255, 255);
+}
+ 
+.contenedor {
+	width:80%;
+	margin-left:10%;
+	flex: 1 1 20%;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	display: inline-block;
+}
+ 
+.elemento {
+	width:250px;
+	
+	background:rgb(184, 179, 183);
+	float:left;
+	margin-right:25px;
+	margin-bottom:25px;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
+	border: black 1px solid;
+	border-width: 1px 1px 1px 1px;
+	
+	
+}
+ 
+.elemento p {
+	padding:20px;
+	font-size:10px;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+ 
+.elemento img {
+	width:100%;
+	height:224px;
+	
+	
+	
+}
+
+
+.elemento img:hover {
+	width:100%;
+	height:224px;
+	
+	outline: 1px solid;
+  outline-color: black;
+	opacity: 40%;
+
+	
+}
+
+header {
+	background:black;
+	width:97%;
+	padding:30px;
+	color:white;
+
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+ 
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+header .logo img {
+	width:100px;
+	  
+}
+ 
+
+
+ 
+}
